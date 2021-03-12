@@ -47,7 +47,7 @@ viz_train.show()
 # Visualizing the Test set results
 viz_test = plt
 viz_test.scatter(X_test, y_test, color='red')
-viz_test.plot(X_train, regressor.predict(X_train), color='blue')
+viz_test.plot(X_test, regressor.predict(X_test), color='blue')
 viz_test.title('Salary VS Experience (Test set)')
 viz_test.xlabel('Year of Experience')
 viz_test.ylabel('Salary')

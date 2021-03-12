@@ -43,4 +43,5 @@ plt.savefig('h.png')
 print(cm)
 
 from sklearn.metrics import accuracy_score
-accuracy_score(y_pred,y_test)
+b = accuracy_score(y_pred,y_test)#modified
+print(b)
